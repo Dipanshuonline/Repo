@@ -12,7 +12,7 @@ public class NewTest {
     @BeforeClass
     public void setUp() {
         // Set up the WebDriver configuration
-        System.setProperty("webdriver.chrome.driver", "Selenium_git_integration/drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "Selenium_git_integration/drivers/chromedriver");
         driver = new ChromeDriver();
     }
 
